@@ -144,5 +144,5 @@ src/
 
 The build output is a static single-page app (`dist/`) that uses browser history routing. Configure your host to serve `index.html` for unknown paths so that deep links like `/markets/xau-usd` work:
 
+- **Vercel:** already configured with `vercel.json`. Import the GitHub repo in Vercel and it deploys on every push to `main`.
 - **Netlify:** add `/* /index.html 200` to `public/_redirects`.
-- **Vercel:** add a rewrite to `/index.html`.
